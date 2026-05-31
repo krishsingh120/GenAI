@@ -4,15 +4,21 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@cacheable/node-cache": "^3.0.1",
     "@tavily/core": "^0.7.2",
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
+    "express": "^5.2.1",
     "groq-sdk": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
